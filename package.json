@@ -1,0 +1,23 @@
+{
+  "name": "quickwait-frontend",
+  "version": "1.0.0",
+  "description": "the frontend of quickwait project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BPernes/QuickWait-FrontEnd.git"
+  },
+  "author": "Bernardo Pernes Vieira Souza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BPernes/QuickWait-FrontEnd/issues"
+  },
+  "homepage": "https://github.com/BPernes/QuickWait-FrontEnd#readme",
+  "dependencies": {
+    "@tabler/icons": "^1.41.2",
+    "bootstrap": "^5.1.3"
+  }
+}
