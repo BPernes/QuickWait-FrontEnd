@@ -13,7 +13,7 @@ body {
         margin: 0px;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 15fr 2fr;
+        grid-template-rows: 1fr 16.5fr 2fr;
         grid-template-areas:
             'header'
             'main'
@@ -69,6 +69,14 @@ body {
         font-size: 18px;
         box-shadow: 0px 5px 10px rgb(0, 0, 0, 0.3);
         justify-content: space-around;
+    }
+
+    .btn:hover {
+        color: #139da1 !important;
+    }
+
+    .btn:active {
+        color: #139da1 !important;
     }
 
     .main-header-container {
