@@ -48,6 +48,10 @@
         width: 220px;
     }
 
+    a {
+        text-decoration: none;
+    }
+
     .form-label {
         color: var(--main-color);
         font-size: 17px;
