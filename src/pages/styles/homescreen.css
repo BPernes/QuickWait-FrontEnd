@@ -1,0 +1,88 @@
+:root {
+    --main-color: #12a1a7;
+    --main-bg-color: #e4fdff;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2.5fr 5fr 1fr;
+    grid-template-areas:
+        'header'
+        'main'
+        'footer';
+    margin: 0px;
+    background-color: var(--main-bg-color);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main-color);
+}
+
+main {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-icon {
+    width: 200px;
+    height: 200px;
+}
+
+.btn {
+    color: var(--main-color);
+    width: 350px;
+    height: 100px;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 20px;
+    box-shadow: 0px 5px 10px rgb(0, 0, 0, 0.3);
+    justify-content: space-around;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.im {
+    font-size: 40px;
+    justify-content: flex-start;
+}
+
+#user-name {
+    width: 135px;
+    height: 40px;
+}
+
+#exit-btn {
+    width: 265px;
+    height: 40px;
+}
+
+#reminder-btn {
+    margin-top: 30px;
+}
+
+#news-btn {
+    margin-top: 30px;
+}
+
+#gear-btn {
+    margin-top: 30px;
+}
