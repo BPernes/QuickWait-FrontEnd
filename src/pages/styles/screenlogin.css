@@ -1,86 +1,71 @@
-body{
-    background-color: #E4FCFE;
-}
-header{
-    background-attachment: fixed;
-    background-size: cover;
-    display: grid;
-    align-items: center;
-    justify-items: center;
-    height: 40vh;
-}
-.cruz{
-    width: 200px;
-}
-fieldset {
-   border: none;
-    color:rgb(52, 165, 159);
-    display: grid;
-    align-items: center;
-    justify-items: center;
-    height: 30vh;
-    font-family: sans-serif;
-    
-}
+@media (max-width: 415px) {
+    :root {
+        --main-color: #12a1a7;
+        --main-bg-color: #e4fdff;
+    }
 
-.senha{
-    font-size: 15px;
-    text-align: center;
-    color: gray;
-    font-family: sans-serif;
-}
-span{
-    color: rgb(52, 165, 159);
-}
-section{
-    display: grid;
-    justify-content: center;
-    font-size: 18px;
-    border-radius: 8px;
-    
-}
+    body {
+        font-family: 'Quicksand', sans-serif;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 5fr 6fr;
+        grid-template-areas:
+            'header'
+            'main';
+        margin: 0px;
+        background-color: var(--main-bg-color);
+    }
 
-label {
- display: block;
- margin-bottom: 8px;
-}
+    header {
+        margin-top: 130px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 
-.input input{
-    border: 2px solid white;
-    padding: 13px;
-    border-radius: 10px;
-    box-shadow: 0 8px 6px -6px #888;
-    
-}
-.voltar{
+    main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
-   font-size: 40px;
-   color: rgb(52, 165, 159);
-   text-align: center;
-}
-button{
-    padding: 10px 10px;
-    color: rgb(52, 165, 159);
-    background-color: white;
-    font-size: 18px;
-    text-align: center;
-    font-style: normal;
-    border-radius: 8px;
-    width: auto;
-    border: 1px solid gray;
-    border-width: 1px 1px 3px;
-    margin-bottom: 25px;
-    box-shadow: 0 8px 6px -6px #888;
-}
-.bu{
-    display: flex;
-    justify-content: center;
-}
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: center;
+    }
 
-@media screen and (min-width: 280px) {
+    h1 {
+        color: var(--main-color);
+        font-size: 32px;
+        font-weight: 500;
+    }
 
- form {
-   max-width: 480px;
- }
+    img {
+        height: 140px;
+        width: 220px;
+    }
 
+    .form-label {
+        color: var(--main-color);
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    .form-control {
+        border-radius: 15px;
+        box-shadow: 0px 5px 10px rgb(0, 0, 0, 0.1);
+    }
+
+    .btn {
+        margin-top: 20px;
+        border-radius: 15px;
+        color: var(--main-color);
+        box-shadow: 0px 5px 10px rgb(0, 0, 0, 0.1);
+        font-size: 18px;
+        font-weight: 600;
+        border: 1px solid #ced4da;
+    }
 }
