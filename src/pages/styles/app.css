@@ -8,23 +8,39 @@
 }
 
 :root {
-    --cor-background: #E4FCFE;
-    --cor-button: #FEFFFE;
-    --cor-font: #64D3D8;
+    --cor-background: #e4fcfe;
+    --cor-button: #fefffe;
+    --cor-font: #12a1a7;
 }
 
 body {
     background-color: var(--cor-background);
+    padding: 35px 0px 0px 0px;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.logo-section{
+h1 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.logo-section {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--cor-font);
 }
 
 .logo-quickwait {
     display: flex;
     justify-content: center;
+    height: 125px;
+    width: 150px;
     padding: 10px;
     margin-top: 62px;
 }
@@ -48,14 +64,14 @@ body {
     padding: 1px;
 }
 
-.type-button img{
-   align-items: center;
-   padding: 3px;
-   margin-right: 18px;
+.type-button img {
+    align-items: center;
+    padding: 3px;
+    margin-right: 18px;
 }
 
 .type-button button {
-    width: 270.5px;
+    width: 270px;
     height: 41px;
     margin-top: 18px;
     border-radius: 10px;
@@ -63,10 +79,28 @@ body {
     background-color: var(--cor-button);
     box-shadow: 20px;
     color: var(--cor-font);
-    
 }
-.separar-section{
+.separar-section {
     display: flex;
     justify-content: center;
-    margin: 39px;
+    margin: 5px;
+}
+
+.btn {
+    color: var(--cor-font);
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 16px;
+    box-shadow: 0px 5px 10px rgb(0, 0, 0, 0.3);
+    justify-content: space-around;
+}
+
+#google-btn {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#facebook-btn {
+    display: flex;
+    justify-content: space-evenly;
 }
