@@ -20,6 +20,10 @@ const enterConfigScreen = () => {
     window.location.href = './confighome.html';
 };
 
+const enterMapScreen = () => {
+    window.location.href = './buscarHospitais.html';
+};
+
 // ----------------------
 
 // Config Screen Redirects
